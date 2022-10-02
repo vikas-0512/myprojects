@@ -1,0 +1,142 @@
+*{
+    background-color: rgb(253, 253, 211);
+    background-image: url('./images/back.jpg');
+    width:100%;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+        body {
+          max-width: 1100px;
+          margin: 20px auto;
+          padding: 20px 20px;
+          background-image: none;
+          height: 550px;
+          border-radius: 50px;
+        }
+        p,h1,h2,h3,a,ul{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            color:black;
+          background-image: none;
+        }
+        .single{
+            background-color: bisque;
+        }
+        h1{
+            background-color: bisque;
+        }
+        .delete{
+            margin-top:20px;
+            margin-bottom: 10px;
+            border: 1px solid grey;
+            background-color: red; 
+           background-image: none;
+           width:100px;
+        }
+        .hello{
+            background-color: grey;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 60px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid gray;
+            text-transform: uppercase;
+            background-image: none;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+           background-image: none;
+        }
+        .bpage a{
+          display: block;
+          margin: 40px 0;
+          padding-left: 30px;
+          border-left: 8px solid crimson;
+          background-image: none;
+        }
+        .bpage  a:hover h3{
+             color: crimson
+        }
+        nav li{
+            margin-left: 20px;
+            background-image: none;
+        }
+        nav h1{
+            font-size: 3em;
+            background-image: none;
+        }
+        nav p,nav a{
+            color: grey;
+            font-weight: 300;
+            background-image: none;
+        }
+        .content{
+            margin-left: 20px;
+            background-image: none;
+        }
+        .create form{
+            max-width:250 px;
+            margin: 10px auto;
+            background-image: none;
+            border-radius: 50px;
+        }
+        .create input,.create textarea{
+            display: grid;
+            width: 90%;
+            margin: 10px 0;
+            padding: 10px;
+            background-image: none;
+        }
+        .heading{
+            text-align: center;
+            margin-bottom: 20px;
+            background-image: none;
+        }
+        .matter{
+            max-width: 1000px;
+             overflow-wrap: anywhere;
+             background-image: none;
+        }
+        .sblog{
+            text-align: center;
+            border: 2px solid rgb(89, 82, 82);
+            margin-left: auto;
+            margin-left: auto;
+            border-radius: 8px;
+            padding-left: 10px;
+            padding-right:0;
+            margin-bottom: 30px;
+            background-image: none;
+        }
+        .create label{
+           display: block;
+           margin-top:24px; 
+           background-image: none; 
+        }
+        textarea{
+            height: 120px;
+            background-image: none;
+        }
+        .create button{
+            margin-top:20px;
+            background: red;
+            color: white;
+            padding: 6px;
+            border: 0;
+            margin-left: 480px;
+            margin-right: auto;
+            width: 100px;
+            font-size: 1.3em;
+            cursor: pointer;
+            background-image: none;
+        }
+        .about{
+            text-align: center;
+        }
